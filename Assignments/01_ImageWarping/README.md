@@ -28,35 +28,34 @@ python run_point_transform.py
 
 ### Basic Transformation
 
-![Scale](pics\Scale=1.6.png)
+<img src="pics/Scale=1.6.png" alt="alt text" width="800">
 
-![Rotation](pics\Rotation=60.png)
+<img src="pics/Rotation=60.png" alt="alt text" width="800">
 
-![X](pics\X=300.png)
+<img src="pics/X=300.png" alt="alt text" width="800">
 
-![Y](pics\Y=-300.png)
+<img src="pics/Y=-300.png" alt="alt text" width="800">
 
-![flip](pics\flip.png)
+<img src="pics/flip.png" alt="alt text" width="800">
 
-![Composition](pics\Composition.png)
+<img src="pics/Composition.png" alt="alt text" width="800">
 
 
 
 ### Point Guided Deformation(RBF):
 
-![1](pics\1.png)
+<img src="pics/1.png" alt="alt text" width="800">
 
-![2](pics\2.png)
+<img src="pics/2.png" alt="alt text" width="800">
 
-![3](pics\3.png)
+<img src="pics/3.png" alt="alt text" width="800">
 
-![4](pics\4.png)
+<img src="pics/4.png" alt="alt text" width="800">
 
-![5](pics\5.png)
+<img src="pics/5.png" alt="alt text" width="800">
 
-![6](pics\6.png)
+<img src="pics/6.png" alt="alt text" width="800">
 
-[paper.dvi (utah.edu)](https://www.sci.utah.edu/~gerig/CS6640-F2010/Project3/Arad-1995.pdf)
 
 ## Acknowledgement
 
