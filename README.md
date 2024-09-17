@@ -1,6 +1,6 @@
 # Course Materials for DIP (Digital Image Processing)
 
-此仓库包含中国科学技术大学《数字几何处理》课的课件和作业
+此仓库包含中国科学技术大学《数字几何处理》2024秋季学期课程的课件和作业
 
 [上课课件（持续更新）](PPT)
 
