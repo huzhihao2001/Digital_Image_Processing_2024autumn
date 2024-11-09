@@ -1,3 +1,4 @@
 import torch
 import numpy as np
-import cv2
+print(torch.cuda.is_available())
+# import cv2
