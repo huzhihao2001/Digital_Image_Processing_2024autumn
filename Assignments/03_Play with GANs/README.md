@@ -1,19 +1,19 @@
 # Assignment 3 - Play with GANs
 
-### In this assignment, you will implement two methods for using GANs in digital image processing.
+
 
 数字图像处理第三次作业：
 
 1. 将GAN模型融入到上次的Pix2pix任务里
 2. 融合dragGAN和自动脸部特征点提取
 
-### Resources:
+## Resources:
 - [DragGAN](https://vcai.mpi-inf.mpg.de/projects/DragGAN/): [Implementaion 1](https://github.com/XingangPan/DragGAN) & [Implementaion 2](https://github.com/OpenGVLab/DragGAN)
 - [Facial Landmarks Detection](https://github.com/1adrianb/face-alignment)
 
 ---
 
-### Requirements:
+## Requirements:
 
 To install requirements:
 
@@ -27,13 +27,13 @@ pip install -r requirements.txt
 
 ## Running
 
-第一个任务，运行:
+第一个任务，在Pix2Pix文件夹下运行:
 
 ```cmd
 python train.py
 ```
 
-第二个任务，运行:
+第二个任务，在DragGAN文件夹下运行:
 
 ```cmd
 .\scripts\gui.bat
@@ -98,3 +98,9 @@ python train.py
 <img src="Pix2Pix\val_results2\epoch_795\result_5.png" alt="alt text" width="800">
 
 推测模型对测试集数据过拟合了。
+
+
+
+### 任务二：
+
+https://github.com/user-attachments/assets/768b882d-ed92-45dc-b1af-d5e323c8e991
