@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 还需要根据电脑配置自行安装`pytorch`
 
-第二个任务要自行配置draggan和dlib
+第二个任务要自行配置draggan和dlib，然后将文件夹中的`visualizer_drag.py`和`viz\drag_widget.py`替换为我仓库里的文件。
 
 ## Running
 
