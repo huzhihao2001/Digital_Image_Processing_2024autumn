@@ -23,6 +23,8 @@ pip install -r requirements.txt
 
 还需要根据电脑配置自行安装`pytorch`
 
+第二个任务要自行配置draggan和dlib
+
 ## Running
 
 第一个任务，运行:
@@ -31,10 +33,10 @@ pip install -r requirements.txt
 python train.py
 ```
 
-第一个任务，运行:
+第二个任务，运行:
 
 ```cmd
-
+.\scripts\gui.bat
 ```
 
 
@@ -42,6 +44,8 @@ python train.py
 ## Results
 
 ### 任务一：
+
+将标记图和真实图片分别作为特征和标签并且交换训练了两轮：
 
 将标记图作为特征真实图片作为标签：
 训练集：
