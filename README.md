@@ -10,6 +10,6 @@
 
 1. [Image Warping](Assignments/01_ImageWarping)
 2. [DIPwithPytorch](Assignments/02_DIPwithPyTorch)
-3. [Play with GANs](Assignments/03_Play with GANs)
+3. [Play with GANs](Assignments/03_Play_with_GANs)
 4. ...
 5. ...
