@@ -151,18 +151,13 @@ def main():
     # 定义超参数
     in_channels = 3  # 输入图像的通道数
     out_channels = 3  # 输出图像的通道数
-    # 创建生成器和判别器的实例
+
     model=GAN().to(device)
-    netG=Generator().to(device)
-    netD=Discriminator().to(device)
     # 创建GAN模型的实例
     criterion_G = nn.L1Loss()
     criterion_D = nn.BCELoss()
     optimizer_G = optim.Adam(model.generator.parameters(), lr=0.001, betas=(0.5, 0.999))
     optimizer_D = optim.Adam(model.discriminator.parameters(), lr=0.001, betas=(0.5, 0.999))
-
-    
-    
 
     # Add a learning rate scheduler for decay
     scheduler_G = StepLR(optimizer_G, step_size=200, gamma=0.2)

@@ -15,7 +15,6 @@ class Generator(nn.Module):
             nn.Conv2d(64, 128, 4, 2, 1, padding_mode='reflect'),
             nn.BatchNorm2d(128),
             nn.LeakyReLU(0.2),
-            # 更多编码器层...
             nn.Conv2d(128, 256, 4, 2, 1, padding_mode='reflect'),
             nn.BatchNorm2d(256),
             nn.LeakyReLU(0.2),
@@ -49,7 +48,6 @@ class Generator(nn.Module):
             nn.ConvTranspose2d(256, 128, 4, 2, 1),
             nn.BatchNorm2d(128),
             nn.ReLU(),
-            # 更多解码器层...
             nn.ConvTranspose2d(128, 64, 4, 2, 1),
             nn.BatchNorm2d(64),
             nn.ReLU(),
@@ -100,9 +98,7 @@ class GAN(nn.Module):
         self.discriminator = Discriminator()
 
     def forward(self, x):
-        # 生成器前向传播
         generated_image = self.generator(x)
-        # 判别器前向传播
         combined_output = torch.cat((generated_image, x), dim=1)
         discriminator_output = self.discriminator(combined_output)
         return discriminator_output, generated_image
