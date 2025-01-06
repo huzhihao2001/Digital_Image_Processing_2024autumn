@@ -111,8 +111,8 @@ class GaussianModel(nn.Module):
         
         # Compute covariance
         ### FILL:
-        ### Covs3d = ...
-        
+        Covs3d: torch.Tensor = torch.einsum('bij,bjk,blk->bil', R, S.square(), R.mT)
+
         return Covs3d
 
     def get_gaussian_params(self) -> GaussianParameters:
