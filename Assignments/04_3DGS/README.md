@@ -36,7 +36,7 @@ After 199 epochs:
 
 <img src="data\chair\checkpoints4\debug_images\epoch_0199\r_11.png" alt="alt text" width="800">
 
-[视频](data\chair\checkpoints4\debug_rendering.mp4)(github上播放不了可以下载观看)：
+[视频](data/chair/checkpoints4/debug_rendering.mp4)(github上播放不了可以下载观看)：
 
 https://github.com/user-attachments/assets/a390ecff-8882-4952-9be4-5dfcd426053e
 
